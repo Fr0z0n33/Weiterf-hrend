@@ -8,7 +8,7 @@ public class Publication {
     //TODO: Klassensachen
 
     public String getInfo(){
-        String r = title + ", published in " + year;
+        String r = this.title + ", published in " + this.year;
         return r;
     }
 }
